@@ -1,4 +1,4 @@
-const targetDate = new Date("2025-10-12T23:59:59").getTime();
+const targetDate = new Date("2025-10-12T23:59:59").getTime(); // uses local timezone of the browser
 
 function updateCountdown() {
     const now = new Date().getTime();
